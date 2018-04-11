@@ -1,0 +1,96 @@
+html { 
+  background: url(https://oceanhealth.xprize.org/sites/default/files/wsoh-hero-9.jpg) no-repeat center center fixed; 
+    /*background-color: blue;*/
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+body {
+	background-color: transparent;
+}
+#container {
+	width: 50%;
+	margin: 0 auto;
+	display: flex;
+  	justify-content: center;
+  	align-items: center;
+}
+header {
+	text-align: center;
+}
+h1, h3 {
+	font-family: 'Special Elite', cursive;
+}
+header h1 {
+    font-weight: bold;
+     color: rgba(255, 26, 140, 0.76);
+	margin-bottom: 0;
+}
+header h3 {
+	color: rgb(158, 158, 158);
+    font-size: 1em;
+	font-family: 'Merriweather', 'Georgia', serif;
+	font-weight: 100;
+	margin: 0 0 50px 0;
+}
+blockquote {
+	border: none;
+}
+blockquote p {
+padding: 25px;
+text-align: justify;
+font-size: 1.5em;
+font-family: 'Special Elite', cursive;
+}
+blockquote cite {
+	display: block;
+    text-align: right;
+	font-size: 1.2em;
+	font-family: 'Merriweather', 'Georgia', serif;
+	margin-bottom: 20px;
+	/*color: #fc8b80;*/
+    color: rgba(255, 26, 140, 0.76);
+}
+.buttons {
+	width: 50%;
+	margin: 0 auto;
+	padding: 20px 0;
+	/*button placement*/
+	display: flex;
+	justify-content: space-around;
+}
+.btn:focus, .btn:active {
+	outline: none !important; 
+}
+.btn-default:hover {
+	background-color: rgba(252, 139, 128, 0.75);
+}
+.btn-circle.btn-xl {
+  width: 70px;
+  height: 70px;
+  padding: 10px 16px;
+  font-size: 20px;
+  line-height: 1.33;
+  border-radius: 35px;
+    background: rgba(217, 216, 217, 0.98);
+}
+#github {
+	color: rgba(255, 26, 140, 0.76);
+}
+#github:hover {
+	color: rgba(252, 139, 128, 0.75);
+}
+footer{
+    font-size: 70%;
+    font-family: 'Merriweather', 'Georgia', serif;
+}
+.fa-twitter, .fa-chevron-right {  
+color: #0099CC  
+} 
+
+@media (max-width:800px) {
+	#container, .buttons {
+		                  width: 80%;
+	}
+}
